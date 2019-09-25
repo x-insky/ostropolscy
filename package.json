@@ -1,0 +1,31 @@
+{
+  "name": "ostropolscy-foundation",
+  "version": "0.0.1",
+  "description": "A family home page with use of Foundation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-insky/ostropolscy.git"
+  },
+  "keywords": [
+    "family",
+    "family tree",
+    "generation",
+    "roots"
+  ],
+  "author": "X-insky (T. M.)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x-insky/ostropolscy/issues"
+  },
+  "homepage": "https://github.com/x-insky/ostropolscy#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
