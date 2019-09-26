@@ -1,11 +1,15 @@
+# first blocked
 /dist
 /node_modules
 .DS_Store
 Thumbs.db
 
+# second blocked - from the Foundation mainly 
 *(o) - kopia*.*
-.DS_Store
 bower_components
 node_modules
 npm-debug.log
 css
+
+# but the 'SCSS' folder was not tracked
+!/scss
