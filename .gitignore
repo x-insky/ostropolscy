@@ -2,3 +2,10 @@
 /node_modules
 .DS_Store
 Thumbs.db
+
+*(o) - kopia*.*
+.DS_Store
+bower_components
+node_modules
+npm-debug.log
+css
