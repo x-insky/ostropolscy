@@ -2,10 +2,13 @@
   "name": "ostropolscy-foundation",
   "version": "0.0.1",
   "description": "A family home page with use of Foundation framework",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp sass"
   },
+  "author": "X-insky [T. M.]",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/x-insky/ostropolscy.git"
@@ -15,17 +18,23 @@
     "family tree",
     "generation",
     "roots"
-  ],
-  "author": "X-insky (T. M.)",
-  "license": "ISC",
+  ],    
   "bugs": {
     "url": "https://github.com/x-insky/ostropolscy/issues"
   },
-  "homepage": "https://github.com/x-insky/ostropolscy#readme",
+  "homepage": "https://github.com/x-insky/ostropolscy#readme",    
+  "dependencies": {
+    "foundation-sites": "^6.5.1",
+    "jquery": ">=3.0.0",
+    "motion-ui": "~2.0.0",
+    "what-input": "^5.1.2"
+  },
   "devDependencies": {
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.18.13",
+    "gulp": "^4.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1"
   }
 }
