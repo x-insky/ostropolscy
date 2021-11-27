@@ -25,7 +25,7 @@
   "homepage": "https://github.com/x-insky/ostropolscy#readme",    
   "dependencies": {
     "foundation-sites": "^6.5.1",
-    "jquery": ">=3.0.0",
+    "jquery": ">=3.5.0",
     "motion-ui": "~2.0.0",
     "what-input": "^5.1.2"
   },
